@@ -1,0 +1,214 @@
+{
+    "pokemon": [
+        {
+            "name": "squirtle",
+            "moves": [
+                "mega-punch",
+                "ice-punch",
+                "headbutt"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/7.png",
+            "stats": {
+                "speed": 4,
+                "attack": 3,
+                "defense": 4
+            }
+        },
+        {
+            "name": "wartortle",
+            "moves": [
+                "tackle",
+                "body-slam",
+                "take-down"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/8.png",
+            "stats": {
+                "speed": 4,
+                "attack": 5,
+                "defense": 6
+            }
+        },
+        {
+            "name": "blastoise",
+            "moves": [
+                "double-edge",
+                "tail-whip",
+                "roar"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/9.png",
+            "stats": {
+                "speed": 7,
+                "attack": 5,
+                "defense": 7
+            }
+        },
+        {
+            "name": "caterpie",
+            "moves": [
+                "bug-bite",
+                "electroweb",
+                "snore"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10.png",
+            "stats": {
+                "speed": 1,
+                "attack": 4,
+                "defense": 3
+            }
+        },
+        {
+            "name": "pidgeot",
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+            "stats": {
+                "speed": 10,
+                "attack": 8,
+                "defense": 7
+            }
+        },
+        {
+            "name": "arbok",
+            "moves": [
+                "poison-sting",
+                "acid",
+                "hyper-beam"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/24.png",
+            "stats": {
+                "speed": 8,
+                "attack": 8,
+                "defense": 3
+            }
+        },
+        {
+            "name": "pikachu",
+            "moves": [
+                "thunder-punch",
+                "tail-whip",
+                "growl"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png",
+            "stats": {
+                "speed": 5,
+                "attack": 5,
+                "defense": 3
+            }
+        },
+        {
+            "name": "nido-king",
+            "moves": [
+                "thunder-punch",
+                "tail-whip",
+                "growl"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/34.png",
+            "stats": {
+                "speed": 8,
+                "attack": 8,
+                "defense": 3
+            }
+        },
+        {
+            "name": "ninetales",
+            "moves": [
+                "ember",
+                "flamethrower",
+                "hyper-beam"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/38.png",
+            "stats": {
+                "speed": 5,
+                "attack": 6,
+                "defense": 6
+            }
+        },
+        {
+            "name": "jigglypuff",
+            "moves": [
+                "pound",
+                "sing",
+                "disable"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/39.png",
+            "stats": {
+                "speed": 3,
+                "attack": 2,
+                "defense": 7
+            }
+        },
+        {
+            "name": "vileplume",
+            "moves": [
+                "swords-dance",
+                "cut",
+                "absorb"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/45.png",
+            "stats": {
+                "speed": 2,
+                "attack": 7,
+                "defense": 4
+            }
+        },
+        {
+            "name": "poliwag",
+            "moves": [
+                "double-slap",
+                "mist",
+                "water-gun"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/60.png",
+            "stats": {
+                "speed": 6,
+                "attack": 5,
+                "defense": 2
+            }
+        },
+        {
+            "name": "abra",
+            "moves": [
+                "ice-punch",
+                "mega-kick",
+                "headbutt"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/63.png",
+            "stats": {
+                "speed": 4,
+                "attack": 7,
+                "defense": 3
+            }
+        },
+        {
+            "name": "weepinbell",
+            "moves": [
+                "swords-dance",
+                "slam",
+                "vine-whip"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/70.png",
+            "stats": {
+                "speed": 4,
+                "attack": 6,
+                "defense": 5
+            }
+        },
+        {
+            "name": "golem",
+            "moves": [
+                "take-down",
+                "flamethrower",
+                "hyper-beam"
+            ],
+            "image":  "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/76.png",
+            "stats": {
+                "speed": 2,
+                "attack": 7,
+                "defense": 5
+            }
+        }
+    ]
+}

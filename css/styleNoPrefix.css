@@ -1,0 +1,68 @@
+body {
+  background-image: url("../resources/images/bg_mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 220px;
+  height: 330px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  padding-top: 1rem;
+  border: 1px solid #000;
+  border-radius: 10%;
+  background-color: rgb(248, 248, 248);
+  opacity: 80%;
+  transition: all .3s;
+}
+
+  .card:hover {
+    cursor: default;
+    margin: 0;
+    width: 240px;
+    height: 360px;
+    font-weight: 700;
+    opacity: 100%;
+  }
+
+.name {
+  margin-top: .5rem;
+  font-size: 2rem;
+  font-weight: 700;
+ }
+
+.info {
+  width: 92%;
+  height: 27%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.moves,
+.stats {
+  width: 49%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.separator {
+  width: 1px;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.7);
+}

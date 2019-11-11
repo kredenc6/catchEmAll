@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Pokemon-Hollow";
+  src: url("../resources/fonts/Pokemon-Hollow.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../resources/fonts/Roboto-Regular.woff") format("woff");
+}
+
+body {
+  font-family: "Roboto-Regular";
+  background-image: url("../resources/images/bg_mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#cards {
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0 auto;
+}
+
+.card {
+  width: 220px;
+  height: 330px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+          -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+          align-items: center;
+          margin: 20px;
+  padding-top: 1rem;
+  border: 1px solid #000;
+  border-radius: 10%;
+  background-color: rgb(248, 248, 248);
+  opacity: 80%;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+  .card:hover {
+    cursor: default;
+    margin: 0;
+    width: 240px;
+    height: 360px;
+    font-weight: 700;
+    opacity: 100%;
+  }
+
+  .name {
+  font-family: "Pokemon-Hollow";
+  margin-top: .5rem;
+  font-size: 2rem;
+  font-weight: 700;
+ }
+
+.info {
+  width: 93%;
+  height: 27%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  font-size: 14px;
+}
+
+.moves,
+.stats {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.separator {
+  width: 1px;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.7);
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  body {
+    background-position: 0 -650px;
+  }
+}
