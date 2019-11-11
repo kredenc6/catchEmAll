@@ -1,4 +1,15 @@
+@font-face {
+  font-family: "Pokemon-Hollow";
+  src: url("../resources/fonts/Pokemon-Hollow.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../resources/fonts/Roboto-Regular.woff") format("woff");
+}
+
 body {
+  font-family: "Roboto-Regular";
   background-image: url("../resources/images/bg_mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,9 +18,11 @@ body {
 }
 
 #cards {
+  max-width: 1400px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .card {
@@ -38,6 +51,7 @@ body {
   }
 
 .name {
+  font-family: "Pokemon-Hollow";
   margin-top: .5rem;
   font-size: 2rem;
   font-weight: 700;
@@ -51,6 +65,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+  font-size: 14px;
 }
 
 .moves,
@@ -65,4 +80,10 @@ body {
   width: 1px;
   height: 100%;
   background-color: rgba(20, 20, 20, 0.7);
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  body {
+    background-position: 0 -650px;
+  }
 }
